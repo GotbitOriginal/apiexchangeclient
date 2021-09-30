@@ -1,4 +1,4 @@
-package main
+package apiexchangeclient
 
 import (
 	"gitlab.com/gotbitbot/apiclient"
