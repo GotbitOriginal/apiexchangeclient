@@ -51,6 +51,7 @@ import (
 	"gitlab.com/gotbitbot/huobiapi"
 	"gitlab.com/gotbitbot/idaxapi"
 	idexapi "gitlab.com/gotbitbot/idex"
+	kucointestapi "gitlab.com/gotbitbot/kucoin_test"
 	"gitlab.com/gotbitbot/kucoinapi"
 	"gitlab.com/gotbitbot/latokenapi"
 	"gitlab.com/gotbitbot/lbankapi"
@@ -155,6 +156,7 @@ const (
 	zbExchange           ExchangesNames = "zb"
 	virgoExchange        ExchangesNames = "virgo"
 	azbitExchange        ExchangesNames = "azbit"
+	kucointestExchange   ExchangesNames = "kucoin_test"
 )
 
 func GetAPIClientByExchange(exchange ExchangesNames) apiclient.APIClient {
@@ -301,6 +303,8 @@ func GetAPIClientByExchange(exchange ExchangesNames) apiclient.APIClient {
 		return &virgoapi.VirgoApi{}
 	case azbitExchange:
 		return &azbitapi.AzbitApi{}
+	case kucointestExchange:
+		return &kucointestapi.KucoinApi{}
 	default:
 		return nil
 	}

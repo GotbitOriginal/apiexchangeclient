@@ -57,6 +57,7 @@ require (
 	gitlab.com/gotbitbot/huobiapi v0.0.0-20200825161642-7fbed1b1f61a
 	gitlab.com/gotbitbot/idaxapi v0.0.0-20200823123812-b65dedad7277
 	gitlab.com/gotbitbot/idex v0.0.0-20200823135029-843caf9d39a8
+	gitlab.com/gotbitbot/kucoin_test v0.0.0-20211021123610-59c1e8321616
 	gitlab.com/gotbitbot/kucoinapi v0.0.0-20210721164218-1ebe0997ba87
 	gitlab.com/gotbitbot/latokenapi v0.0.0-20200930120359-023b7962ff43
 	gitlab.com/gotbitbot/lbankapi v0.0.0-20200924105736-406dd555129f

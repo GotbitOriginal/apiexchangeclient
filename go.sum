@@ -515,6 +515,8 @@ gitlab.com/gotbitbot/idaxapi v0.0.0-20200823123812-b65dedad7277 h1:nT9r5DtZpbuT8
 gitlab.com/gotbitbot/idaxapi v0.0.0-20200823123812-b65dedad7277/go.mod h1:2W8TMy2fTSIoOjSswqZKCPBVk86zIXtTz5R3agE/au8=
 gitlab.com/gotbitbot/idex v0.0.0-20200823135029-843caf9d39a8 h1:SMTPqHMmCuv95dmHd36P68QyNXD0U8TmUbnEEG6pHIQ=
 gitlab.com/gotbitbot/idex v0.0.0-20200823135029-843caf9d39a8/go.mod h1:8hxOV439n3W0f8wYZgTBhVYmctbPwMiFnuSG0heHEW0=
+gitlab.com/gotbitbot/kucoin_test v0.0.0-20211021123610-59c1e8321616 h1:U5zsodcMDroI49I8/IkLygsX9HsrfkAr4ljtnyRwOJ8=
+gitlab.com/gotbitbot/kucoin_test v0.0.0-20211021123610-59c1e8321616/go.mod h1:CF4QUZzn2yoiQB2qOIXber8WHgp9ILrfPeLZD3BpuZI=
 gitlab.com/gotbitbot/kucoinapi v0.0.0-20210721164218-1ebe0997ba87 h1:YeF2tBcjcMJdBbmjCG+T433X1CWUjd10hVHHBNLbxtk=
 gitlab.com/gotbitbot/kucoinapi v0.0.0-20210721164218-1ebe0997ba87/go.mod h1:tDQkAHHRXhkTBdRGuIfthOhcIEJKGdcqhH6YU9LKDeY=
 gitlab.com/gotbitbot/latokenapi v0.0.0-20200930120359-023b7962ff43 h1:WsV126vod7+gF+h5anLyM73gUHpHX9VkbgrAneEygH4=
