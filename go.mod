@@ -1,13 +1,8 @@
 module github.com/gotbitoriginal/apiexchangeclient
 
-go 1.14
+go 1.17
 
 require (
-	github.com/Ximenyan/CoinTiger_SDK_Golang v0.0.0-20180814025357-41db3043022b // indirect
-	github.com/aleksmvp/errorstandard v0.1.1
-	github.com/dvsekhvalnov/jose2go v1.5.0 // indirect
-	github.com/ethereum/go-ethereum v1.10.9 // indirect
-	github.com/go-sql-driver/mysql v1.6.0 // indirect
 	gitlab.com/gotbitbot/alterdiceapi v0.0.0-20200828200503-436b2f183f42
 	gitlab.com/gotbitbot/altillyapi v0.0.0-20200829003021-ba2d9ba0487e
 	gitlab.com/gotbitbot/altsbitapi v0.0.0-20200823124005-6ed3aea9f990
@@ -18,10 +13,10 @@ require (
 	gitlab.com/gotbitbot/bigoneapi v0.0.0-20210719153946-a24a2bc4a293
 	gitlab.com/gotbitbot/bikiapi v0.0.0-20210723120840-d6d9ecf61a7e
 	gitlab.com/gotbitbot/bilaxyapi v0.0.0-20200823140347-cc2a846d10df
-	gitlab.com/gotbitbot/binanceapi v0.0.0-20210618121425-bf3fcc82a98e
+	gitlab.com/gotbitbot/binanceapi v0.0.0-20220516133943-e66bb710527c
 	gitlab.com/gotbitbot/binancedexapi v0.0.0-20210225150128-593f22d9371a
 	gitlab.com/gotbitbot/bitcoinapi v0.0.0-20210929154007-ef11c4b473a8
-	gitlab.com/gotbitbot/bitforexapi v0.0.0-20210719114953-3d641ceb5346
+	gitlab.com/gotbitbot/bitforexapi v0.0.0-20220520153137-0fe3bfbe5aaa
 	gitlab.com/gotbitbot/bithumbapi v0.0.0-20210820133245-1922a83acc5b
 	gitlab.com/gotbitbot/bitmartapi v0.0.0-20210331202819-9198b9bd8515
 	gitlab.com/gotbitbot/bitmaxapi v0.0.0-20210715112353-44449775e987
@@ -54,7 +49,7 @@ require (
 	gitlab.com/gotbitbot/hitbtcapi v0.0.0-20210403231521-34ef085f5b53
 	gitlab.com/gotbitbot/hooapi v0.0.0-20200823141019-8022b6382d9c
 	gitlab.com/gotbitbot/hotbitapi v0.0.0-20210811111355-e863b13bc03c
-	gitlab.com/gotbitbot/huobiapi v0.0.0-20200825161642-7fbed1b1f61a
+	gitlab.com/gotbitbot/huobiapi v0.0.0-20220208141116-67048ac45dbb
 	gitlab.com/gotbitbot/idaxapi v0.0.0-20200823123812-b65dedad7277
 	gitlab.com/gotbitbot/idex v0.0.0-20200823135029-843caf9d39a8
 	gitlab.com/gotbitbot/kucoin_test v0.0.0-20211021123610-59c1e8321616
@@ -64,7 +59,7 @@ require (
 	gitlab.com/gotbitbot/livecoinapi v0.0.0-20200827145957-890455788dec
 	gitlab.com/gotbitbot/mxcapi v0.0.0-20210622181809-497f6a8741d1
 	gitlab.com/gotbitbot/oceanexapi v0.0.0-20210506142629-ba9ce24b5d93
-	gitlab.com/gotbitbot/p2pb2bapi v0.0.0-20210113151618-4e6d81f8c721
+	gitlab.com/gotbitbot/p2pb2bapi v0.0.0-20220526093332-aeb127886241
 	gitlab.com/gotbitbot/poloniexapi v0.0.0-20210203125316-532ed0a21486
 	gitlab.com/gotbitbot/probitapi v0.0.0-20210616213029-d3473128c66b
 	gitlab.com/gotbitbot/rivermountapi v0.0.0-20200910194334-63005860c543
@@ -81,4 +76,53 @@ require (
 	gitlab.com/gotbitbot/whitebitapi v0.0.0-20200823134804-e15d00c3dda0
 	gitlab.com/gotbitbot/xtapi v0.0.0-20210716103119-f690e24c3841
 	gitlab.com/gotbitbot/zbapi v0.0.0-20210909205428-69e59472b2e9
+)
+
+require (
+	github.com/Ximenyan/CoinTiger_SDK_Golang v0.0.0-20180814025357-41db3043022b // indirect
+	github.com/beorn7/perks v1.0.0 // indirect
+	github.com/binance-chain/go-sdk v1.2.6 // indirect
+	github.com/binance-chain/ledger-cosmos-go v0.9.9-binance.1 // indirect
+	github.com/btcsuite/btcd v0.20.1-beta // indirect
+	github.com/btcsuite/btcd/btcec/v2 v2.2.0 // indirect
+	github.com/btcsuite/btcutil v0.0.0-20190425235716-9e5f4b9a998d // indirect
+	github.com/cosmos/go-bip39 v0.0.0-20180819234021-555e2067c45d // indirect
+	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.0.1 // indirect
+	github.com/dvsekhvalnov/jose2go v1.5.0 // indirect
+	github.com/etcd-io/bbolt v1.3.3 // indirect
+	github.com/ethereum/go-ethereum v1.10.20 // indirect
+	github.com/go-kit/kit v0.8.0 // indirect
+	github.com/go-logfmt/logfmt v0.4.0 // indirect
+	github.com/go-sql-driver/mysql v1.6.0 // indirect
+	github.com/gogo/protobuf v1.3.1 // indirect
+	github.com/golang/protobuf v1.5.2 // indirect
+	github.com/golang/snappy v0.0.4 // indirect
+	github.com/gorilla/websocket v1.4.2 // indirect
+	github.com/jmhodges/levigo v1.0.0 // indirect
+	github.com/kr/logfmt v0.0.0-20140226030751-b84e30acd515 // indirect
+	github.com/kr/text v0.2.0 // indirect
+	github.com/libp2p/go-buffer-pool v0.0.1 // indirect
+	github.com/matttproud/golang_protobuf_extensions v1.0.1 // indirect
+	github.com/pkg/errors v0.9.1 // indirect
+	github.com/prometheus/client_golang v1.0.0 // indirect
+	github.com/prometheus/client_model v0.0.0-20190812154241-14fe0d1b01d4 // indirect
+	github.com/prometheus/common v0.6.0 // indirect
+	github.com/prometheus/procfs v0.0.2 // indirect
+	github.com/syndtr/goleveldb v1.0.1-0.20220614013038-64ee5596c38a // indirect
+	github.com/tendermint/btcd v0.0.0-20180816174608-e5840949ff4f // indirect
+	github.com/tendermint/go-amino v0.14.1 // indirect
+	github.com/tendermint/tendermint v0.32.3 // indirect
+	github.com/tendermint/tm-db v0.1.1 // indirect
+	github.com/zondax/hid v0.9.0 // indirect
+	github.com/zondax/ledger-go v0.9.0 // indirect
+	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519 // indirect
+	golang.org/x/net v0.0.0-20220607020251-c690dde0001d // indirect
+	golang.org/x/sys v0.0.0-20220520151302-bc2c85ada10a // indirect
+	golang.org/x/text v0.3.7 // indirect
+	google.golang.org/genproto v0.0.0-20200108215221-bd8f9a0ef82f // indirect
+	google.golang.org/grpc v1.26.0 // indirect
+	google.golang.org/protobuf v1.26.0 // indirect
+	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
+	gopkg.in/resty.v1 v1.10.3 // indirect
 )

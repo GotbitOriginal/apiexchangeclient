@@ -268,7 +268,7 @@ func GetAPIClientByExchange(exchange ExchangesNames) apiclient.APIClient {
 	case cointigerExchange:
 		return &cointigerapi.CoinTigerApi{}
 	case binanceExchange:
-		return &binanceapi.BinanceAPI{}
+		return &binanceapi.BinanceApi{}
 	case coinfieldExchange:
 		return &coinfieldapi.CoinFieldApi{}
 	case mxcExchange:
